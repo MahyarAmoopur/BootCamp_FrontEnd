@@ -1,0 +1,30 @@
+p {
+    color: red;
+}
+.test {
+    color: green;
+}
+#demo{
+    color:blue;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: azure;
+}
+.FamilyTable {
+    width: 50%;
+}
+thead {
+   display: table-header-group;
+   vertical-align: middle;
+   border-color: inherit;
+   
+}
+th{
+    background-color: blueviolet;
+    color: oldlace;
+}
+ul{
+    list-style-type: lower-roman;
+}
