@@ -1,30 +1,63 @@
-p {
-    color: red;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
-.test {
-    color: green;
+.header{
+    padding: 60px;
+    background: #1abc9c;
+    color:white;
+    text-align: center;
 }
-#demo{
-    color:blue;
+
+.header-note{
+    background-color: yellow;
+    padding: 5px;
 }
-table,th,td{
-    border: 1px solid black;
-    border-collapse: collapse;
-    background-color: azure;
+.navbar{
+    display: flex;
+    background-color:#333;
 }
-.FamilyTable {
-    width: 50%;
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
 }
-thead {
-   display: table-header-group;
-   vertical-align: middle;
-   border-color: inherit;
-   
+.navbar a:hover{
+    background-color: #ddd;
+    color:black;
 }
-th{
-    background-color: blueviolet;
-    color: oldlace;
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
 }
-ul{
-    list-style-type: lower-roman;
+.side {
+    flex:30%;
+    background-color: #f1f1f1;
+    padding:20px;
 }
+.main{
+    flex:70%;
+    background-color: white;
+    padding: 20px;
+}
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+  }
+  @media screen and (max-width: 700px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  }
+  * {
+    box-sizing: border-box;
+  }
