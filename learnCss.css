@@ -1,0 +1,35 @@
+div{
+    background: #8a9c2b;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.col-1{
+    flex: 25%;
+    background-color: #4b4d42;
+    opacity: 80%;
+    padding: 20px;
+}
+.col-2{
+    flex: 25%;
+    background-color: #0c5f09;
+    opacity: 80%;
+    padding: 20px;
+}
+.col-3{
+    flex: 25%;
+    background-color: #63115b;
+    opacity: 80%;
+    padding: 20px;
+}
+.col-4{
+    flex: 25%;
+    background-color: #c5aa0f;
+    opacity: 80%;
+    padding: 20px;
+}
+* {
+    box-sizing: border-box;
+}
